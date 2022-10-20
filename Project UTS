@@ -1,0 +1,57 @@
+Jawaban no 1
+* Tipe data ialah klasifikasi data yang mengenlakan kompilator atau penerjemah bagaimana programmer bermaksud untuk menggunakan data
+contoh : tipe data bilangan bulat
+         tipe data karakter
+         tipe data string
+         tipe data boolean
+         tipe data floating point
+         
+Jawaban no 2
+* #Tipe data numerik
+panjang = 5
+lebar = 10.1
+luas = panjang * lebar
+print(panjang, '*', lebar, '=', luas)
+print("tipe dari variabel panjang:", type(panjang))
+print("tipe dari variabel lebar:", type(lebar))
+print("tipe dari variabel luas:", type(luas))
+
+#Tipe data string
+nama_depan = "Imanuel"
+nama_belakang = 'Tempo'
+nama_lengkap = nama_depan + ' ' + nama_belakang
+usia = '18'
+alamat = 'Bojong'
+kata_mutiara = "Don't judge a book by it's cover"
+print(nama_lengkap, '(' + usia + ')', ',', 'dari', alamat, ', kata mutiara:', kata_mutiara)
+
+#tipe data boolean
+saya_orang_indonesia = True
+saya_adalah_robot = False
+print('Apakah saya orang indonesia?', saya_orang_indonesia)
+print('Apakah saya adalah robot?', saya_adalah_robot)
+print('Tipe dari saya_orang_indonesia', type(saya_orang_indonesia))
+print('Tipe dari saya_adalah_robot', type(saya_adalah_robot))
+
+#tipe data Array
+array = []
+total = 0
+n = int(input("masukkan banyaknya elemen array: "))
+for x in range(n):
+    nilai = float(input("masukkan nilai ke-{} :" .format(x+1)))
+    array.append(nilai)
+print("\nHasil nilai total adalah : {}".format(sum(array)))
+print("Hasil rata-rata adalah : {}".format(sum(array)/n))
+
+Jawaban no 3
+* if 5 > 10:
+    print('nilai 5 lebih dari 10')
+
+if 10 > 5:
+    print('nilai 10 lebih dari 5')
+    
+Jawaban no 4
+* i = 1
+
+while i <= 5:
+    print(1)
